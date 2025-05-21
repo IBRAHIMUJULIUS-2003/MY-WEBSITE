@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body style="color: gold;">
+    <header>
+        <h1 style="display: block; color: blueviolet; text-align: center; text-decoration: double;">Welcome to My Website</h1>
+        <nav>
+            <div class="nav-container">
+                <div class="nav-tile" data-page="home">
+                    <span>Home</span>
+                </div>
+                <div class="nav-tile" data-page="about">
+                    <span>About</span>
+                </div>
+                <div class="nav-tile" data-page="contact">
+                    <span>Contact</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+         
+            <p>Welcome to our simple website! This is a basic web page with some essential elements.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This website was created using HTML, CSS, and JavaScript.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Developer</h3>
+                <p style="font-style: italic; color: brown;">Ibrahimu Mwita</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ibrahimu-mwita-833257299/" class="social-link" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/IBRAHIMUJULIUS-2003" class="social-link" target="_blank">GitHub</a>
+                    <a href="https://x.com/MwitaIbrahimu" class="social-link" target="_blank">Twitter (X)</a>
+                    <a href="https://instagram.com/mwita_ibrahimu" class="social-link" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:ibrahimumwita128@gmail.com">ibrahimumwita128@gmail.com</a></p>
+                <p>Chat with me on WhatsApp: <a href="https://wa.me/255699158403?text=Hello%20I%20need%help" target="_blank">+255699158403</a></p>
+                <p>call me:<a href="tel: +255616714101">+255616714101</a></p>
+                <p>Send me an sms:<a href="sms:255616714101">+255616714101</a></p>
+            </div>
+            <div class="footer-section">
+                <p style="font-style: italic; color: brown;">&copy; 2025 Ibrahimu Mwita. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
